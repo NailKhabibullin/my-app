@@ -1,26 +1,29 @@
+// src/App.tsx
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Products from './components/Products/Products';
+import Contact from './components/Contact/Contact';
+import CreateProduct from './components/CreateProduct/CreateProduct';
+import NotFound from './components/NotFound/NotFound';
 
-function App() {
+const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+    <Navbar />
+    <Routes>
+        <Route path="/" element={<Home />} />
+        
+        <Route path="/products" element={<Products />} />
+        <Route path="/create_product" element={<CreateProduct />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NotFound />} />
+      </Routes>
+  </BrowserRouter>
   );
-}
+};
 
 export default App;

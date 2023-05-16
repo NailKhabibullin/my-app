@@ -1,0 +1,27 @@
+.navbar-container {
+  background-color: #E64C46; /* Цвет фона навигационной панели */
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-item {
+  margin-right: 10px;
+}
+
+.nav-link {
+  color: #FFFFFF; /* Цвет ссылок в навигационной панели */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: #F4CB0D; /* Цвет ссылок при наведении */
+}
+
+.active-link {
+  color: #000000; /* Цвет активного линка */
+}
