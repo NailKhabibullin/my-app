@@ -4,7 +4,7 @@ import './contact.css';
 
 const Contact: React.FC = () => {
   return (
-    <Container className="create-product-form">
+    <Container className="contact-container">
       <Row>
         <Col> 
           <h2 className="form-title">Contact Page</h2>

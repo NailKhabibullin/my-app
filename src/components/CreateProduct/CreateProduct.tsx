@@ -38,7 +38,7 @@ const CreateProduct: React.FC = () => {
   };
 
   return (
-    <Form onSubmit={handleSubmit} className="create-product-form">
+    <Form onSubmit={handleSubmit} className="form-container">
       <h2 className="form-title">Create Product</h2>
       <Form.Group controlId="formTitle">
         <Form.Label className="form-label">Title:</Form.Label>

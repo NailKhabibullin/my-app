@@ -24,7 +24,7 @@ const Products: React.FC = () => {
   }, []);
 
   return (
-    <Container className="create-product-form ">
+    <Container className="product-container">
       <h2 className="form-title">Products Page</h2>
       <Row className="product-grid">
         {products.map(product => (
