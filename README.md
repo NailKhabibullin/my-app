@@ -1,3 +1,28 @@
+# The application is developed to address the following customer requirements:
+
+1. Initialize a new Create React App project using the TypeScript template.
+2. Install development libraries: react-router-dom, react-bootstrap, bootstrap.
+3. Connect Bootstrap styles to the project.
+4. Implement a navigation menu using react-router-dom (3-4 pages).
+5. Add content to the pages.
+6. Utilize components from the react-bootstrap library during development.
+7. Implement handling of a 404 error (redirect to the main page).
+8. Install the axios library.
+9. Use axios to fetch data from the server.
+10. Display a list of records on the page.
+11. Add a form for creating an object and implement data submission to the server.
+
+
+## To run the project after downloading it from a remote repository, you need to follow these steps:
+
+Install the necessary dependencies: In the project's root directory, run the command `npm install` in the command line to install all the project dependencies specified in the `package.json` file.
+
+Start the project: After successfully installing the dependencies, run the command `npm start` in the command line. This will start the development server and open your project in the browser at http://localhost:3000 (unless the port has been changed).
+
+Verify the project's functionality: After the project starts, you should see it in your browser. Make sure that the project is working correctly and displaying the expected pages and functionality.
+
+It's important to note that for successful project execution after downloading it from a remote repository, you will also need the necessary development tools such as Node.js and a package manager (usually npm). Ensure that these tools are installed and properly configured on your computer.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
