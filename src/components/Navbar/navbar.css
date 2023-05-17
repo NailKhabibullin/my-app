@@ -1,5 +1,5 @@
 .navbar-container {
-  background-color: #E64C46; /* Цвет фона навигационной панели */
+  background-color: #E64C46;
   padding: 10px;
 }
 
@@ -13,15 +13,15 @@
 }
 
 .nav-link {
-  color: #FFFFFF; /* Цвет ссылок в навигационной панели */
+  color: #FFFFFF;
   text-decoration: none;
   font-weight: bold;
 }
 
 .nav-link:hover {
-  color: #F4CB0D; /* Цвет ссылок при наведении */
+  color: #F4CB0D;
 }
 
 .active-link {
-  color: #000000; /* Цвет активного линка */
+  color: #000000;
 }
